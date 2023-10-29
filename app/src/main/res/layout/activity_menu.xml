@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MenuActivity">
+
+        <ImageView
+            android:id="@+id/politechImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/fond"/>
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:fontFamily="@font/tektur_black"
+            android:shadowColor="@color/black"
+            android:shadowRadius="10"
+            android:text="@string/name"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/continueView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/tektur_regular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+
+            android:shadowRadius="3"
+            android:text="@string/clickScreen"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+        <TextView
+            android:id="@+id/startGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/tektur_regular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:visibility="invisible"
+
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+
+            android:shadowRadius="3"
+            android:text="@string/start_game"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+        <TextView
+            android:id="@+id/loadView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/tektur_regular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:visibility="invisible"
+
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+
+            android:shadowRadius="3"
+            android:text="@string/load_game"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/startGame" />
+
+        <TextView
+            android:id="@+id/saveView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/tektur_regular"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:visibility="invisible"
+
+            android:shadowDx="1.5"
+            android:shadowDy="1.3"
+
+            android:shadowRadius="3"
+            android:text="@string/save_game"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loadView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

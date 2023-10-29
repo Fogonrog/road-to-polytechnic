@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RoadToPolytechnic</string>
+    <string name="todo">TODO</string>
+    <string name="name">Дорога в Политех</string>
+    <string name="clickScreen">Нажмите на экран</string>
+    <string name="start_game">Начать игру</string>
+    <string name="save_game">Сохранить игру</string>
+    <string name="load_game">Загрузить игру</string>
+    <string name="simple_string">Дорогие преподаватели и студенты, поздравляю вас с новым учебным годом! Для некоторых из вас это первый год в нашем учебном заведении, а для кого-то уже последний.</string>
+    <string name="simple_name">Пример имени</string>
+</resources>

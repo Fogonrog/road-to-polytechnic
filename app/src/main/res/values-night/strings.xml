@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Дорога в Политех</string>
+    <string name="clickScreen">Нажмите на экран</string>
+    <string name="save_game">Сохранить игру</string>
+</resources>
