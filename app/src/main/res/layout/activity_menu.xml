@@ -16,7 +16,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/fond"/>
+            tools:src="@drawable/poitech"/>
 
         <TextView
             android:id="@+id/nameView"
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:fontFamily="@font/tektur_regular"
+            android:fontFamily="@font/tektur_black"
             android:gravity="center"
             android:shadowColor="@color/black"
 
@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:fontFamily="@font/tektur_regular"
+            android:fontFamily="@font/tektur_black"
             android:gravity="center"
             android:shadowColor="@color/black"
             android:visibility="invisible"
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/tektur_regular"
+            android:fontFamily="@font/tektur_black"
             android:gravity="center"
             android:shadowColor="@color/black"
             android:visibility="invisible"
@@ -109,7 +109,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/tektur_regular"
+            android:fontFamily="@font/tektur_black"
             android:gravity="center"
             android:shadowColor="@color/black"
             android:visibility="invisible"

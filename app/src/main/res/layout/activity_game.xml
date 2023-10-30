@@ -19,16 +19,15 @@
 
     <ImageView
         android:id="@+id/person1"
-        android:layout_width="280dp"
-        android:layout_height="436dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="742dp"
+        android:layout_height="670dp"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
 
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gg_girl_sad" />
+        app:srcCompat="@drawable/gg_girl_sad"
+        tools:layout_editor_absoluteY="-69dp" />
 
     <com.road.polytechnic.view.Draw2D
         android:id="@+id/bg2"
