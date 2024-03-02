@@ -19,9 +19,9 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, // скрываем строку состояния
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getWindow().getDecorView().setSystemUiVisibility(
+        getWindow().getDecorView().setSystemUiVisibility( // скрываем панель навигации
                 View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
         setContentView(R.layout.activity_menu);
 
@@ -31,14 +31,14 @@ public class MenuActivity extends AppCompatActivity {
         TextView save = findViewById(R.id.saveView);
 
         ImageView bg = findViewById(R.id.politechImg);
-        bg.setImageResource(R.drawable.fond);
+        bg.setImageResource(R.drawable.poitech);
 
         bg.setOnClickListener(v -> {
             cont.setVisibility(View.INVISIBLE);
-
             start.setVisibility(View.VISIBLE);
             load.setVisibility(View.VISIBLE);
             save.setVisibility(View.VISIBLE);
+            bg.setOnClickListener(v1 -> {});
         });
 
         start.setOnClickListener(v -> {

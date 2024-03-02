@@ -1,0 +1,30 @@
+change bg bg1_1
+play music with_you_in_my_arms
+update scene
+
+change phrase Лёха "Я столько сил потратил ради этого результата! Как я рад! Ура! Мама, м-а-а-а-м!"
+change bg bg1_2
+update scene
+
+change phrase None "…"
+change bg black_bg
+update scene
+
+change phrase Мать "Леша, что такое?"
+change person mama happy at center
+show person center
+change bg kitchen
+stop music
+update scene
+
+change phrase Лёха "Результаты за экзамен пришли!"
+update scene
+
+change phrase Мать "И как?"
+change person mama shock at center
+move person center to front
+update scene
+
+move person center to back
+hide person center
+update scene

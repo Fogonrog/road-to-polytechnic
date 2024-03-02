@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">RoadToPolytechnic</string>
-    <string name="todo">TODO</string>
+    <string name="app_name">Дорога в Политех</string>
     <string name="name">Дорога в Политех</string>
     <string name="clickScreen">Нажмите на экран</string>
     <string name="start_game">Начать игру</string>
@@ -8,20 +7,19 @@
     <string name="load_game">Загрузить игру</string>
     <string name="simple_string">Дорогие преподаватели и студенты, поздравляю вас с новым учебным годом! Для некоторых из вас это первый год в нашем учебном заведении, а для кого-то уже последний.</string>
     <string name="simple_name">Пример имени</string>
+    <string name="none">none</string>
     <string name="name_Denis">Денис</string>
 
-    <string name="name_mama">Мама</string>
+    <string name="name_mama">Мать</string>
     <string name="Mphrase_1">Леша, что такое?</string>
     <string name="Mphrase_2">И как?</string>
     <string name="Mphrase_3">А ты уже определился с университетом, в который ты собираешься поступать?</string>
     <string name="Mphrase_4">И какое же направление ты выбрал?</string>
 
     <string name="name_Lexa">Лёха</string>
-    <string name="Lphrase_1">...</string>
+    <string name="Lphrase_1">…</string>
     <string name="Lphrase_2"> Я столько сил потратил ради этого результата! Как я рад! Ура! Мама, м-а-а-а-м! </string>
     <string name="Lphrase_3"> Результаты за экзамен пришли! </string>
     <string name="Lphrase_4">У меня вышло 287 баллов за 3 дисциплины!</string>
     <string name="Lphrase_5"> Мама, я думаю буду поступать в Политех, тем более я был на дне открытых дверей и познакомился там с факультетами. </string>
 </resources>
-
-
